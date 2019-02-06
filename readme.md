@@ -20,4 +20,4 @@ use Laravel\Nova\Fields\Textarea;
 Textarea::make('Description')->showOnIndex()->limit(10)
 ```
 
-`limit()` accepts a second paramter to override '...'
+`limit($amount, $ending)` accepts a second paramter to override '...'
