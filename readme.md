@@ -24,8 +24,9 @@ Textarea::make('Description')->showOnIndex()->limit(10)
 
 ### Options
 
-`limit($amount, $ending)` 
+`limit($amount, $ending='...')` 
 
-Accepts a second paramter to override '...'
+
+### Tip
 
 Also add `->showAlways()` if you don't toggling on detail
