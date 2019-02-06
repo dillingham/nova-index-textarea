@@ -3,7 +3,7 @@
 [![Latest Version on Github](https://img.shields.io/github/release/dillingham/nova-index-textarea.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-index-textarea)
 [![Total Downloads](https://img.shields.io/packagist/dt/dillingham/nova-index-textarea.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-index-textarea)
 
-Nova package that adds methods to Textarea for index view.
+Nova package that allows showing a limited textarea on index
 
 ### Install
 
@@ -24,4 +24,8 @@ Textarea::make('Description')->showOnIndex()->limit(10)
 
 `limit($amount, $ending)` 
 
-accepts a second paramter to override '...'
+** Only limits on index
+
+Accepts a second paramter to override '...'
+
+Also add `->showAlways()` if you don't to toggle on detail
