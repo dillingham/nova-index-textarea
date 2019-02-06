@@ -29,4 +29,4 @@ Textarea::make('Description')->showOnIndex()->limit(10)
 
 ### Sidenote
 
-Add `->showAlways()` if you don't toggling on detail
+Add `->showAlways()` to turn off toggling on detail
