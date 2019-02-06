@@ -13,6 +13,8 @@ composer require dillingham/nova-index-textarea
 
 ### Usage
 
+This package adds two methods to the existing `Textarea` Nova field
+
 ```php
 use Laravel\Nova\Fields\Textarea;
 ```
