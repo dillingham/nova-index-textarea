@@ -3,7 +3,7 @@
 [![Latest Version on Github](https://img.shields.io/github/release/dillingham/nova-index-textarea.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-index-textarea)
 [![Total Downloads](https://img.shields.io/packagist/dt/dillingham/nova-index-textarea.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-index-textarea)
 
-Nova package that allows showing a limited textarea on index
+Nova package for showing textarea content on index with limits
 
 ### Install
 
