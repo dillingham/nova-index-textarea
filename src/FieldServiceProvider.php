@@ -23,7 +23,7 @@ class FieldServiceProvider extends ServiceProvider
         });
 
         Textarea::macro('limit', function($amount, $ending = '...') {
-            if(resolve(NovaRequest::class)->resourceId == null) {
+            if(app(NovaRequest::class)->resourceId == null) {
                 $this->displayUsing(function() use($amount, $ending) {
                     return str_limit($this->value, $amount, $ending);
                 });
