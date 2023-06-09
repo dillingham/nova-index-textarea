@@ -24,8 +24,8 @@ class FieldServiceProvider extends ServiceProvider
 
         Textarea::macro('limit', function($amount, $ending = '...') {
             if(resolve(NovaRequest::class)->resourceId == null) {
-                $this->displayUsing(function() use($amount, $ending) {
-                    return str_limit($this->value, $amount, $ending);
+                $this->displayUsing(function($value) use($amount, $ending) {
+                    return str_limit($value, $amount, $ending);
                 });
             }
 
